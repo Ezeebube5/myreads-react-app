@@ -34,10 +34,18 @@ It also allows you to search for books based on title and author.
     ├── App.js # App root. 
     ├── App.test.js # Used for testing. Provided with Create React App. Testing was encouraged, but not required.
     ├── BooksAPI.js # A JavaScript API for the provided Udacity backend. Instructions for the methods are below.
-    ├── icons # Images available for usw within the app.
+    ├── icons # Images available for use within the app.
     │   ├── add.svg
     │   ├── arrow-back.svg
     │   └── arrow-drop-down.svg
+    ├── components 
+    │   ├── BookItem.js
+    │   ├── BookList.js
+    │  
+    ├── pages 
+    │   ├── AddBooksPage.js
+    │   ├── HomePage.js
+    │   
     ├── index.css # Global styles.
     └── index.js # Used for DOM rendering only.
 ```
@@ -55,7 +63,9 @@ To simplify development process, a backend server was provided to develop agains
 ## Important
 The backend API uses a fixed set of cached search results and is limited to a particular set of search terms, which can be found in [SEARCH_TERMS.md](SEARCH_TERMS.md). That list of terms are the _only_ terms that will work with the backend. Other search terms might not come up with any results.
 
-## Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). You can find more information on how to perform common tasks [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
+## Tech Stack Used:
+* React.js
+* React Router
+* Udacity API
+* [Create React App](https://github.com/facebookincubator/create-react-app). You can find more information on how to perform common tasks [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
