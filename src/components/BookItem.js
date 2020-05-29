@@ -39,7 +39,7 @@ const BookItem = ({ book, onClickUpdate }) => {
       </div>
       <div className="book-title">{book.title}</div>
       <div className="book-authors">
-        {book.authors ? book.authors[0] : null}
+      <ul>Author(s): {book.authors === undefined ? "None" : book.authors.map((author) => <li>{author}</li>)}</ul>
       </div>
     </div>
   );
